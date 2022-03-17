@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _isalpha - Shows 1 if the input is a
@@ -17,6 +17,7 @@ int _isalpha(int c)
 	else
 	{
 		return (0);
-	}
-	_putchar('\n');
+
 }
+}
+
