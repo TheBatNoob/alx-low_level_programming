@@ -11,7 +11,7 @@
  */
 int _islower(int c)
 {
-	if (c >= a && c <= z)
+	if (islower(c) != 0)
 	{
 		return (1);
 	}
@@ -19,5 +19,4 @@ int _islower(int c)
 	{
 		return (0);
 	}
-	_putchar('\n');
 }
