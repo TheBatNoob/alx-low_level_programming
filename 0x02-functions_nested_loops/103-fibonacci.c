@@ -8,7 +8,7 @@
 * Return: Always 0.
 */
 
-int i;
+int main(int i){ 
 unsigned long fib1 = 0, fib2 = 1, sum;
 
 for (i = 0; i < 4000000; i++) 
@@ -22,4 +22,5 @@ for (i = 0; i < 4000000; i++)
 	if ((i % 2) == 0 )
 		printf("\n");
 	return(0);
+}
 }
